@@ -1,0 +1,52 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }  
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 15% auto;
+}
+
+#title {
+    color: white;
+    background-color: #94c47d;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+li {
+    color: #FFAA2B;
+    list-style-type: none;
+    font-size: 25px;
+    margin-left: -40px;
+    padding: 5px;
+}
+
+#remove {
+    color: white;
+    background-color: #E06567;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+#addSkill {
+    padding: 5px;
+    margin-left: 5px;
+}
+
+#text {
+    width: 75%;
+    padding: 5px;
+}
+
+#text, #addSkill {
+    color: #94c47d;
+    font-size: 20px;
+    border: 2px solid #94c47d;
+    margin-top: 10px;
+}
